@@ -1,0 +1,25 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Backend (Maven / Spring Boot)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Backend runtime data — local document storage and the generated JWT signing
+# key. The private key in here must never reach source control.
+backend/data/
+
+# Frontend (Node / Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# Design reference material, not project source
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
